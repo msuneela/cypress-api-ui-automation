@@ -1,0 +1,21 @@
+{
+  "name": "cypress-ui-api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "debug": "npx cypress open"
+  },
+  "author": "suneela",
+  "license": "ISC",
+  "devDependencies": {
+    "cy-spok": "^1.6.1",
+    "cypress": "^12.17.1",
+    "cypress-ntlm-auth": "^4.1.2"
+  },
+  "dependencies": {
+    "spok": "^1.5.5",
+    "typescript": "^5.1.6"
+  }
+}
